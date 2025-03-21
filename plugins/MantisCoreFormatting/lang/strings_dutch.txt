@@ -1,0 +1,80 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit https://translatewiki.net  **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Dutch (Nederlands)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit https://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Siebrand
+ */
+
+$s_plugin_format_title = 'MantisBT-opmaak';
+$s_plugin_format_description = 'Officiële tekstverwerkings- en opmaakplugin.';
+$s_plugin_format_config = 'Instellingen';
+$s_plugin_format_process_text = 'Tekstverwerking';
+$s_plugin_format_process_text_warning_notice = 'Niet uitschakelen tenzij u precies weet wat u doet. Als deze plugin is uitgeschakeld, zijn "cross site scripting"-aanvallen (XSS) mogelijk.';
+$s_plugin_format_process_urls = 'URL-verwerking';
+$s_plugin_format_process_buglinks = 'MantisBT-koppelingen (meldingen/opmerkingen)';
+$s_plugin_format_process_buglinks_info = 'In uw instellingen wordt het label <em>Melding</em> gedefinieerd als "%s" en het label <em>Meldingnotitie</em> als "%s"';
+$s_plugin_format_process_markdown = 'Markdownverwerking';
+$s_plugin_format_process_markdown_info = 'Opmaak met ondersteuning voor Markdown, opmaaksyntaxis zodanig ontworpen dat het kan worden omgezet naar HTML.';
+$s_plugin_format_enabled = 'Aan';
+$s_plugin_format_disabled = 'Uit';
+$s_plugin_format_syntax_highlighting = 'Syntaxisaccentuering voor codeblokken';
+$s_plugin_format_syntax_highlighting_info = 'Syntaxisaccentuering werkt alleen als \'Markdown-verwerking\' actief is.';
+$s_plugin_format_syntax_highlighting_theme = 'Codeblokkenthema';
+$s_plugin_format_syntax_highlighting_plugins = 'Opties voor codeblokken';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_name = 'Naar klembord kopiëren';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_desc = 'Een kleine knop weergeven waarmee u de inhoud van het codeblok naar het klembord kunt kopiëren.';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_copy = 'Kopiëren';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_success = '✓ Gekopieerd';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_error = 'Druk op Ctrl+C om te kopiëren';
+$s_plugin_format_syntax_highlighting_plugin_show_language_name = 'Taal weergeven';
+$s_plugin_format_syntax_highlighting_plugin_show_language_desc = 'Geeft aan welke taal het codeblok bevat.';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_name = 'Regelnummers';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_desc = 'Regelnummers weergeven.';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_name = 'Witruimte weergeven';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_desc = 'Verborgen tekens worden weergegeven, bijvoorbeeld voor inspringingen.';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_name = 'Witruimtes normaliseren';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_desc = 'Verwijdert alle voorloop- en eindspaties van een codeblok. Het verwijdert ook extra inspringingen en eindspaties op elke regel.';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_name = 'Passende haakjes';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_desc = 'Geeft de paring van haakjes weer bij muisover. Inclusief "regenbooghaakjes" (elk paar heeft zijn eigen kleur).';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_name = 'Uitgebreide markering van verschillen (diff)';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_desc = 'Kleurt de achtergrond van een regel in plaats van de tekst. Naast "diff" is een taalspecifieke kleuring mogelijk (bijv. "diff-javascript").';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_name = 'CSS-kleuren visualiseren';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_desc = 'Geeft een klein gekleurd vierkantje weer vóór een kleurdefinitie (bijv. vóór "#000").';
+$s_plugin_format_syntax_highlighting_plugin_previewers_name = 'Voorbeelden voor sommige CSS-definities';
+$s_plugin_format_syntax_highlighting_plugin_previewers_desc = 'Er verschijnt een voorbeeld als u met de muis over de definities \'hoek\', \'kleur\', \'verloop\', \'easing\' of \'tijd\' beweegt.';

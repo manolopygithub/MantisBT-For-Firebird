@@ -1,0 +1,81 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit https://translatewiki.net  **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Galician (galego)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit https://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Elisardojm
+ * @author Toliño
+ */
+
+$s_plugin_format_title = 'Formato de MantisBT';
+$s_plugin_format_description = 'Complemento oficial de procesamento e formato de texto.';
+$s_plugin_format_config = 'Configuración';
+$s_plugin_format_process_text = 'Procesamento de texto';
+$s_plugin_format_process_text_warning_notice = 'Non desactive isto a menos que realmente saiba o que está a facer. No estado desactivado, é posible que haxa ataques de secuencia de comandos en sitios cruzados (XSS).';
+$s_plugin_format_process_urls = 'Procesamento de URL';
+$s_plugin_format_process_buglinks = 'Ligazóns internas de MantisBT (incidencias e notas de incidencias)';
+$s_plugin_format_process_buglinks_info = 'A súa configuración define a etiqueta <em>Incidencia</em> como "%s" e a etiqueta <em>Nota</em> como "%s"';
+$s_plugin_format_process_markdown = 'Procesamento Markdown';
+$s_plugin_format_process_markdown_info = 'Deseño usando o soporte Markdown, unha sintaxe de formato de texto deseñada para que poida converterse en HTML.';
+$s_plugin_format_enabled = 'Activado';
+$s_plugin_format_disabled = 'Desactivado';
+$s_plugin_format_syntax_highlighting = 'Resaltado de sintaxe para bloques de código';
+$s_plugin_format_syntax_highlighting_info = 'O resaltado de sintaxe só funciona se o procesamento Markdown está activo.';
+$s_plugin_format_syntax_highlighting_theme = 'Tema de bloques de código';
+$s_plugin_format_syntax_highlighting_plugins = 'Opcións de bloques de código';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_name = 'Copiar no portapapeis';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_desc = 'Amosa un botón pequeno para copiar os contidos do bloque de código no portapapeis.';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_copy = 'Copiar';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_success = '✓ Copiado';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_error = 'Prema Ctrl+C para copiar';
+$s_plugin_format_syntax_highlighting_plugin_show_language_name = 'Amosar a linguaxe';
+$s_plugin_format_syntax_highlighting_plugin_show_language_desc = 'Amosa que linguaxe contén o bloque de código.';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_name = 'Números de liña';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_desc = 'Amosa os números de liña.';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_name = 'Amosar os espazos en branco';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_desc = 'Amosa os caracteres agochados (por exemplo, os sangrados).';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_name = 'Normalizar os espazos en branco';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_desc = 'Elimina todos os espazos en branco ao inicio e ao final do bloque de código. Tamén elimina os sangrados adicionais e os espazos en branco ao final de cada liña.';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_name = 'Chaves coincidentes';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_desc = 'Amosa o emparellamento de chaves ao pasar o cursor, con cada parella dunha cor diferente.';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_name = 'Resaltado ampliado de diferenzas (dif)';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_desc = 'Colorea o fondo dunha liña no canto do texto e, ademais, é posible pór unha cor específica para cada linguaxe mediante "diff" (por exemplo, "diff-javascript").';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_name = 'Ollar as cores CSS';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_desc = 'Amosa un cadrado pequeno coa cor diante da definición da mesma (por exemplo, antes de "#000").';
+$s_plugin_format_syntax_highlighting_plugin_previewers_name = 'Vista previa para algunhas definicións CSS';
+$s_plugin_format_syntax_highlighting_plugin_previewers_desc = 'Aparecerá unha vista previa ao pasar o cursor por riba das definicións de "angle", "color", "gradient", "easing" e "time".';

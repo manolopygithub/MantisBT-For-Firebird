@@ -1,0 +1,73 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit https://translatewiki.net  **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Russian (русский)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit https://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Dirruw'o
+ * @author Kirill
+ * @author Lega4
+ * @author Lutece398
+ * @author Nitch
+ * @author Okras
+ * @author Александр Сигачёв
+ */
+
+$s_plugin_format_title = 'Форматирование MantisBT';
+$s_plugin_format_description = 'Официальный плагин для обработки и форматирования текста.';
+$s_plugin_format_config = 'Настройка';
+$s_plugin_format_process_text = 'Обработка текста';
+$s_plugin_format_process_text_warning_notice = 'Не выключайте, если не уверены в том, что делаете. В выключенном состоянии возможна XSS атака на сайт.';
+$s_plugin_format_process_urls = 'Обработка URL';
+$s_plugin_format_process_buglinks = 'Внутренние ссылки MantisBT (задачи/комментарии)';
+$s_plugin_format_process_buglinks_info = 'Ваша конфигурация определяет тег <em>Issue</em> как «%s», а тег <em>Issue Note</em> — как «%s»';
+$s_plugin_format_process_markdown = 'Обработка Markdown';
+$s_plugin_format_process_markdown_info = 'Синтаксис форматирования с поддержкой Markdown разработан таким образом, что текст может быть преобразован в HTML.';
+$s_plugin_format_enabled = 'Вкл';
+$s_plugin_format_disabled = 'Выкл';
+$s_plugin_format_syntax_highlighting = 'Подсветка синтаксиса для блоков кода';
+$s_plugin_format_syntax_highlighting_theme = 'Тема блоков кода';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_name = 'Скопировать в буфер обмена';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_copy = 'Копировать';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_success = '✓ Скопировано';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_error = 'Нажмите Ctrl+C для копирования';
+$s_plugin_format_syntax_highlighting_plugin_show_language_name = 'Выберите язык';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_name = 'Номера строк';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_desc = 'Показать номера строк.';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_name = 'Показать пробелы';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_name = 'Нормализовать пробелы';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_name = 'Визуализация цветов CSS';

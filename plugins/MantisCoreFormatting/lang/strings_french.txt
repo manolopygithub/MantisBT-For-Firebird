@@ -1,0 +1,88 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit https://translatewiki.net  **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** French (français)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit https://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author Dolmen
+ * @author Gomoko
+ * @author IAlex
+ * @author Mahabarata
+ * @author McDutchie
+ * @author Méthodes Bulebe Hangi
+ * @author Urhixidur
+ * @author Verdy p
+ * @author Wladek92
+ */
+
+$s_plugin_format_title = 'Mise en forme de MantisBT';
+$s_plugin_format_description = 'Greffon officiel de traitement et de formatage de texte.';
+$s_plugin_format_config = 'Configuration';
+$s_plugin_format_process_text = 'Traitement du texte';
+$s_plugin_format_process_text_warning_notice = 'Ne désactivez pas sans savoir ce que vous faites. Dans l\'état désactivé, des attaques de type « cross-site scripting » (XSS) sont possibles.';
+$s_plugin_format_process_urls = 'Traitement des URL';
+$s_plugin_format_process_buglinks = 'Liens internes de MantisBT (anomalies et notes sur anomalies)';
+$s_plugin_format_process_buglinks_info = 'Votre configuration définit la balise <em>Issue</em> comme « %s » et <em>Issue Note</em> comme « %s »';
+$s_plugin_format_process_markdown = 'Traitement Markdown';
+$s_plugin_format_process_markdown_info = 'Mise en forme prenant en charge Markdown, la syntaxe de formatage du texte qui permet que celui-ci puisse être converti en HTML.';
+$s_plugin_format_enabled = 'Activé';
+$s_plugin_format_disabled = 'Désactivé';
+$s_plugin_format_syntax_highlighting = 'Mise enévidence des blocs de code par synthax.';
+$s_plugin_format_syntax_highlighting_info = 'L\'illustration de syntaxe ne fonctionne que si le "processage de marquage" est actif.';
+$s_plugin_format_syntax_highlighting_theme = 'Thème des blocs de code';
+$s_plugin_format_syntax_highlighting_plugins = 'Options du bloc de code';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_name = 'Copier dans le presse-papiers';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_desc = 'Pour copier le contenu,il faut montrer un petit bouton pour copier le bloc des codes sur le presse-papiers.';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_copy = 'Copier';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_success = '✓ Copié';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_error = 'Pour copier tapper Ctrl+C';
+$s_plugin_format_syntax_highlighting_plugin_show_language_name = 'Définir la langue';
+$s_plugin_format_syntax_highlighting_plugin_show_language_desc = 'Affiche la langue contenue dans le bloc de code.';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_name = 'Numéros des lignes';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_desc = 'Afficher les numéros de ligne';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_name = 'Montrer les espaces espaces blanches.';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_desc = 'Afficher les caracteres cachés (e.g. for indentations).';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_name = 'Normaliser les espaces blanches';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_desc = 'Il élimine tous les espaces blancs de code. Il élimine également les tirages supplémentaires et l\'espace blanc en arrière sur chaque ligne.';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_name = 'Mise en correspondance des broches';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_desc = 'Montre l\'accouplage des supports au survol de la souris. Y compris les "broches arc-en-ciel" (chaque paire a sa propre couleur).';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_name = 'Etendre la mise en évidence des différences.';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_desc = 'Colore l\'arrière-plan d\'une ligne plutôt que du texte et en plus de "diff", une coloration spécifique du langage est possible (par exemple "diff-javascript").';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_name = 'Visualiser les couleurs CSS';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_desc = 'Montrer un petit carré devant la définition de chaque couleur (e.g. before "#000").';
+$s_plugin_format_syntax_highlighting_plugin_previewers_name = 'Previsualisation de certaines definitionsCSS.';
+$s_plugin_format_syntax_highlighting_plugin_previewers_desc = 'Un prévisualisateur apparaîtra sur la souris sur les définitions "angle", "color", "gradient", "allégement" ou "temps".';

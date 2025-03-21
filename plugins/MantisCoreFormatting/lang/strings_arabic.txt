@@ -1,0 +1,84 @@
+<?php
+/** MantisBT - a php based bugtracking system
+ *
+ * Copyright (C) 2000 - 2002  Kenzaburo Ito - kenito@300baud.org
+ * Copyright (C) 2002 - 2016  MantisBT Team - mantisbt-dev@lists.sourceforge.net
+ *
+ * MantisBT is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * MantisBT is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with MantisBT.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * **********************************************************************
+ * ** This file contains translations stored in translatewiki.net.     **
+ * ** See https://translatewiki.net/wiki/Project:About for information **
+ * ** on copyright/license for translatewiki.net translations.         **
+ * **********************************************************************
+ * **                                                                  **
+ * **                      DO NOT UPDATE MANUALLY                      **
+ * **                                                                  **
+ * ** To improve a translation please visit https://translatewiki.net  **
+ * ** Detailed instructions on how to create or update translations at **
+ * ** http://www.mantisbt.org/wiki/doku.php/mantisbt:translationshowto **
+ * **********************************************************************
+ */
+/** Arabic (العربية)
+ * 
+ * See the qqq 'language' for message documentation incl. usage of parameters
+ * To improve a translation please visit https://translatewiki.net
+ *
+ * @ingroup Language
+ * @file
+ *
+ * @author DRIHEM
+ * @author Meno25
+ * @author Mohammed Qays
+ * @author بهتين شوكت
+ * @author ديفيد
+ */
+
+$s_plugin_format_title = 'فرمتت MantisBT';
+$s_plugin_format_description = 'مساعد تجهيز النص الأصلي و الفرمته.';
+$s_plugin_format_config = 'ضبط';
+$s_plugin_format_process_text = 'معالجة النص';
+$s_plugin_format_process_text_warning_notice = 'لا تقم بإطفائه إلا إذا كنت تعي ما تقوم به. في حالة الإيقاف، بالإمكان حصول هجمات البرمجة النصية (XSS).';
+$s_plugin_format_process_urls = 'معالجة المسار';
+$s_plugin_format_process_buglinks = 'وصلات MantisBT الداخلية (المشكلة والملاحظات على المشكلة)';
+$s_plugin_format_process_buglinks_info = 'يحدد التكوين الخاص بك وسم <em>المشكلة</em> على أنها "%s" و وسم <em>ملاحظة المشكلة</em> على أنها "%s"';
+$s_plugin_format_process_markdown = 'معالجة ماركداون';
+$s_plugin_format_process_markdown_info = 'التصميم مع دعم ماركداون، صيغة نص تنسيق تصميم بحيث يمكن تحويلها إلى HTML.';
+$s_plugin_format_enabled = 'مفعل';
+$s_plugin_format_disabled = 'معطل';
+$s_plugin_format_syntax_highlighting = 'وبناء علي الجملة تسليط الضوء ل شفرة كتل';
+$s_plugin_format_syntax_highlighting_info = 'ويعمل تمييز إنشاء الجملة فقط إذا كانت "معالجة تقليل السعر" مفعله.';
+$s_plugin_format_syntax_highlighting_theme = 'شفرة كتل صفه';
+$s_plugin_format_syntax_highlighting_plugins = 'خيارات هذه الكتل والتعليمات البرمجية';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_name = 'نُسخ إلى الحافظة.';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_desc = 'يظهر زر صغير لنسخ محتوى كتلة التعليمات البرمجية إلى الحافظة.';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_copy = 'نسخ';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_success = 'استنسخت';
+$s_plugin_format_syntax_highlighting_plugin_copy_to_clipboard_error = 'دوس على كنترول ج لنسخ المطلوب';
+$s_plugin_format_syntax_highlighting_plugin_show_language_name = 'تباين اللغة';
+$s_plugin_format_syntax_highlighting_plugin_show_language_desc = 'يظهر اللغة التي يحتوي عليها كتلة التعليمات التي تدعي البرمجية.';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_name = 'أرقام الأسطر';
+$s_plugin_format_syntax_highlighting_plugin_line_numbers_desc = 'يظهر هنا أرقام الخط.';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_name = 'تباين المسافات البيضاء';
+$s_plugin_format_syntax_highlighting_plugin_show_invisibles_desc = 'تظهر الأحرف المخفية (على سبيل المثال المسافات البادئة).';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_name = 'تطبيع اللابعاد البيضاء';
+$s_plugin_format_syntax_highlighting_plugin_normalize_whitespace_desc = 'يقوم بقص كل المسافات البادئة واللاحقة لكتلة التعليمات البرمجية. كما يقوم أيضًا بإزالة المسافات البادئة الإضافية والمسافات البادئة في كل سطر.';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_name = 'تقويمات متطابقة';
+$s_plugin_format_syntax_highlighting_plugin_match_braces_desc = 'هو يعرض اقتران الأقواس وعند تحريك الماوس من فوق وبما في ذلك "أقواس قوس قزح" (كل زوج له لونه مخصص).';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_name = 'وذالك لتسليط الضوء الموسع على الاختلافات (الفرق)';
+$s_plugin_format_syntax_highlighting_plugin_diff_highlight_desc = 'يقوم بتلوين خلفية السطر بدلاً من النص، وبالإضافة إلى "diff" من الممكن تلوين لغة محددة (على سبيل المثال "diff-javascript").';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_name = 'تصور ألوان سي اس اس';
+$s_plugin_format_syntax_highlighting_plugin_inline_color_desc = 'يظهر مربعًا صغيرًا ملونًا أمام تعريف اللون (على سبيل المثال قبل "#000").';
+$s_plugin_format_syntax_highlighting_plugin_previewers_name = 'هنا المعاينات ولبعض تعريفات سي اس اس';
+$s_plugin_format_syntax_highlighting_plugin_previewers_desc = 'ستظهر معاينة عند تحريك الماوس فوق تعريفات "الزاوية" أو "اللون" أو "التدرج" أو "التيسير" أو "الوقت".';
