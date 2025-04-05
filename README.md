@@ -12,15 +12,28 @@ It can be downloaed and procced with the installation exactly the same way it wo
 Documentation
 -------------
 
-Pleae refer to [MantisBT Project](https://github.com/mantisbt/mantisbt)
+Please refer to [MantisBT Project](https://github.com/mantisbt/mantisbt)
 
 Requirements
 ------------
 
-Pleae refer to [MantisBT Project](https://github.com/mantisbt/mantisbt)
+Please refer to [MantisBT Project](https://github.com/mantisbt/mantisbt)
 
 Installation
 ------------
 
 The same way that the [MantisBT Project](https://github.com/mantisbt/mantisbt).
-The only thing to keep in mind is, when the Firebird database file does not exist, it must be created first before starting the installation process, because the installation process does NOT create the database file.
+Nevertheless keep in mind this two items:
+- When the Firebird database file does not exist, it must be created first before starting the installation process, because the installation process does NOT create the database file.
+- The Firebird RDBMS version must be 4.0 or superior.
+
+UPGRADING
+---------
+
+Please refer to [MantisBT Project](https://github.com/mantisbt/mantisbt)
+
+CONFIGURATION
+-------------
+
+Please refer to [MantisBT Project](https://github.com/mantisbt/mantisbt)
+
